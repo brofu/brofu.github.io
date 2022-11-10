@@ -1,16 +1,18 @@
 # Brofu's Talk
 
-- Web Tech
-  - [Database](01-web_tech/database/database.md)
-    * [Clickhouse](01-web_tech/database/clickhouse.md)
-    * [Elasticsearch](01-web_tech/database/elasticsearch.md)
-    * [Mysql](01-web_tech/database/mysql.md)
-  - [Message Queue](01-web_tech/message_queue/message_queue.md)
-    * [Kafka](01-web_tech/message_queue/kafka.md)
-  - [Monitoring](01-web_tech/monitoring/monitoring.md)
-  - [System Design](01-web_tech/system_design/system_design.md)
-  - [Tracing](01-web_tech/tracing/tracing.md)
-- Fundamental Tech
-  - [Operating System](02-fundamental_tech/operating_system/operating_system.md)
-- Good Readings
-  * [Good Reading](03-good_readings/good_reading.md)
+- [Web Tech](01-web_tech/readme.md)
+  - [Database](01-web_tech/02-database/readme.md)
+    * [Clickhouse](01-web_tech/02-database/clickhouse.md)
+    * [Elasticsearch](01-web_tech/02-database/elasticsearch.md)
+    * [Mysql](01-web_tech/02-database/mysql.md)
+  - [Message Queue](01-web_tech/03-message_queue/readme.md)
+    * [Kafka](01-web_tech/03-message_queue/kafka.md)
+  - [System Design](01-web_tech/04-system_design/readme.md)
+  - [Monitoring](01-web_tech/05-monitoring/readme.md)
+  - [Tracing](01-web_tech/06-tracing/readme.md)
+- [Fundamental Tech](02-fundamental_tech/readme.md)
+  - [Algorithm](02-fundamental_tech/algorithm/readme.md)
+  - [Network](02-fundamental_tech/network/readme.md)
+  - [Operating System](02-fundamental_tech/operating_system/readme.md)
+- [Tools](03-tools/readme.md)
+- [Good Readings](04-good_readings/readme.md)
