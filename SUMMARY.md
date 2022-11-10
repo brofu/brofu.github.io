@@ -16,6 +16,8 @@
   - [Operating System](02-fundamental_tech/operating_system/readme.md)
 - [Tools](03-tools/readme.md)
 - [Good Readings](04-good_readings/readme.md)
+  * [Growth](04-good_readings/growth.md)
+  * [Tech Related](04-good_readings/tech_related.md)
 - About
   * [Road Map](09-about/01-road_map.md)
   * [Issues And Thanks](09-about/02-issues_and_thanks.md)
