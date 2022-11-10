@@ -31,7 +31,7 @@ jobs:
 
             - name: push _book to branch gh-pages 
               env:
-                TOKEN: ${{ secrets.TOKEN }}
+                TOKEN: ${{ secrets.GITHUB_TOKEN }}
                 REF: github.com/${{github.repository}}
                 MYEMAIL: brofu.talk@gmail.com
                 MYNAME: ${{github.repository_owner}} 
