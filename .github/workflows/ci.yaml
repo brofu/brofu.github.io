@@ -30,11 +30,11 @@ jobs:
                 cp SUMMARY.md _book 
 
             - name: push _book to branch gh-pages 
-              env: 
-              TOKEN: ${{ secrets.TOKEN }}
-              REF: github.com/${{github.repository}}
-              MYEMAIL: brofu.talk@gmail.com
-              MYNAME: ${{github.repository_owner}} 
+              env:
+                TOKEN: ${{ secrets.TOKEN }}
+                REF: github.com/${{github.repository}}
+                MYEMAIL: brofu.talk@gmail.com
+                MYNAME: ${{github.repository_owner}} 
               run: | 
                 cd _book 
                 git config --global user.email "${MYEMAIL}" 
