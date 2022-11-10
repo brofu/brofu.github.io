@@ -35,13 +35,14 @@ jobs:
                 REF: github.com/${{github.repository}}
                 MYEMAIL: brofu.talk@gmail.com
                 MYNAME: ${{github.repository_owner}} 
+                INITNAME: main  
               run: | 
                 cd _book 
                 git config --global user.email "${MYEMAIL}" 
                 git config --global user.name "${MYNAME}" 
+                git config --global init.defaultBranch "${INITNAME}"
                 git init 
                 git remote add origin https://${REF} 
                 git add . 
                 git commit -m "Build pages. TODO: get commit info from main branch" 
-                git branch -M main 
                 git push --force --quiet "https://${TOKEN}@${REF}" main:gh-pages
