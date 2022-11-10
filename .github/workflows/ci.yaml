@@ -42,7 +42,7 @@ jobs:
                 git config --global user.name "${MYNAME}" 
                 git config --global init.defaultBranch "${INITNAME}"
                 git init 
-                git remote add origin https://${TOKEN}@${REF} 
+                git remote add origin https://${MYNAME}:${TOKEN}@${REF} 
                 git add . 
                 git commit -m "Build pages. TODO: get commit info from main branch" 
                   #git push --force --quiet "https://${TOKEN}@${REF}" main:gh-pages
