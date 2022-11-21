@@ -32,3 +32,4 @@ gitbook init
 # copy files
 cp ../../brofu.github.io/.gitignore ./.gitignore
 cp -r ../../brofu.github.io/.github ./.github
+cp -r ../../brofu.github.io/.git/hooks/pre-commit ./.git/hooks/pre-commit
