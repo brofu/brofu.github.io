@@ -34,5 +34,5 @@ cp ../../brofu.github.io/.gitignore ./.gitignore
 cp -r ../../brofu.github.io/.github ./.github
 cp -r ../../brofu.github.io/.git/hooks/pre-commit ./.git/hooks/pre-commit
 
-# copy tools
+# copy tools. 
 cp ../../brofu.github.io/update_summary.sh ./update_summary.sh
