@@ -2,8 +2,8 @@
 
 This page records the notes of programming languages. The following languages are covered:
 
-* Rust
 * Golang
+* Rust
 * Python
 * C
 

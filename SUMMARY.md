@@ -13,6 +13,7 @@
 - [Fundamental Tech](02-fundamental_tech/readme.md)
   - [Algorithm](02-fundamental_tech/01-algorithm/readme.md)
   - [Programming Language](02-fundamental_tech/02-programming_language/readme.md)
+    * [Golang](https://brofu.github.io/notes-golang/))
   - [Operating System](02-fundamental_tech/03-operating_system/readme.md)
   - [Network](02-fundamental_tech/04-network/readme.md)
   - [Software Engineering](02-fundamental_tech/05-software_engineering/readme.md)
