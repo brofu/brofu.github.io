@@ -20,7 +20,7 @@ fi
 
 
 
-cd $folder
+pushd $folder
 
 # update local
 git config --local user.name $username
@@ -36,3 +36,9 @@ cp -r ../../brofu.github.io/.git/hooks/pre-commit ./.git/hooks/pre-commit
 
 # copy tools. 
 cp ../../brofu.github.io/update_summary.sh ./update_summary.sh
+
+
+git add .
+git commit -m "init version"
+
+popd
