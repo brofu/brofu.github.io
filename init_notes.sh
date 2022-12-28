@@ -1,10 +1,16 @@
 #!/bin/bash
 
+if [ "$#" != "1" ]; then
+    echo "help: init_notes.sh note-repo (for example, git@github.com:brofu/notes-es.git)" 
+    exit -1
+fi
+
 set -e
 set -o pipefail
 
 # example of input
 # init_notes.sh git@github.com:brofu/notes-es.git brofu.talk@gmail.com
+EMAIL=brofu.talk@gmail.com
 
 cd ../noteset
 folder=$(echo $1 | sed 's&git@github.com:brofu/&&g' | sed 's&.git&&g')
@@ -24,7 +30,7 @@ pushd $folder
 
 # update local
 git config --local user.name $username
-git config --local user.email $2
+git config --local user.email $EMAIL
 
 # gitbook
 gitbook init
@@ -39,6 +45,9 @@ cp ../../brofu.github.io/update_summary.sh ./update_summary.sh
 
 # copy book tools
 cp ../../brofu.github.io/book.json ./book.json
+
+# install plugins
+gitbook install
 
 git add .
 git commit -m "init version"

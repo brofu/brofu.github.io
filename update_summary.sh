@@ -29,7 +29,7 @@ fi
 # list to update
 # to avoid to use hashmap in shell
 # update here
-topics=( "Golang,golang" "Elasticsearch,es" "Kafka,kafka")
+topics=( "Golang,golang" "Elasticsearch,es" "Kafka,kafka" "Rpc,rpc")
 
 for i in "${topics[@]}"
 do
