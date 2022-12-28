@@ -11,7 +11,10 @@ update_string () {
     mv -f "$3.bak" "$3"
 }
 
-
+if [ "$#" != "2" ]; then
+    echo "help: update_summary.sh env (live or env) port (port number if env=test)" 
+    exit -1
+fi
 
 echo "Updating SMMMARY.md with Parameters: env $1, port $2"
 
@@ -26,7 +29,7 @@ fi
 # list to update
 # to avoid to use hashmap in shell
 # update here
-topics=( "Golang,golang" "Elasticsearch,es")
+topics=( "Golang,golang" "Elasticsearch,es" "Kafka,kafka")
 
 for i in "${topics[@]}"
 do
