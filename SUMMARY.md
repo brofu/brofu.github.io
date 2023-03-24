@@ -21,6 +21,8 @@
   - [Network](02-fundamental_tech/04-network/readme.md)
   - [Software Engineering](02-fundamental_tech/05-software_engineering/readme.md)
 - [Tools](03-tools/readme.md)
+  - [Language Recognition](03-tools/01-language_recognition/readme.md)
+    * [Antlr](03-tools/01-language_recognition/01-antlr.md)
 - [Good Readings](04-good_readings/readme.md)
   * [Growth](04-good_readings/growth.md)
   * [Tech Related](04-good_readings/tech_related.md)
