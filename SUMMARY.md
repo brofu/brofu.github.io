@@ -23,6 +23,8 @@
 - [Tools](03-tools/readme.md)
   - [Language Recognition](03-tools/01-language_recognition/readme.md)
     * [Antlr](03-tools/01-language_recognition/01-antlr.md)
+  - [Editor](03-tools/02-editor/readme.md)
+    * [Vim](03-tools/02-editor/01-vim.md)
 - [Good Readings](04-good_readings/readme.md)
   * [Growth](04-good_readings/growth.md)
   * [Tech Related](04-good_readings/tech_related.md)
