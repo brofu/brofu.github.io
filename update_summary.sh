@@ -30,7 +30,7 @@ fi
 # to avoid to use hashmap in shell
 # update here
 topics=( "Golang,golang" "Elasticsearch,es" "Kafka,kafka" "Rpc,rpc" "Database Theory,database" \
-    "Antlr,antlr" "Vim,vim")
+    "Antlr,antlr" "Vim,vim" "Leetcode,leetcode")
 
 for i in "${topics[@]}"
 do

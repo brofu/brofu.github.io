@@ -21,6 +21,7 @@ if [ -d $folder ]; then
     echo "repo cloned"
 else
     echo "cloning repo"
+    echo $1
     git clone $1
 fi
 
