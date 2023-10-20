@@ -13,7 +13,7 @@ set -o pipefail
 EMAIL=brofu.talk@gmail.com
 
 cd ../noteset
-folder=$(echo $1 | sed 's&git@github.com:brofu/&&g' | sed 's&.git&&g')
+folder=$(echo $1 | sed 's&git@github.com:brofu/&&g' | sed 's&\.git&&g')
 username=$(echo $1 | sed 's&git@github.com:&&g' | sed 's&/.*$&&g')
 
 # clone repo
