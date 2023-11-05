@@ -27,8 +27,9 @@
   - [Editor](03-tools/02-editor/readme.md)
     * [Vim](https://brofu.github.io/notes-vim))
 - [Good Readings](04-good_readings/readme.md)
+  - [Tech Related](04-good_readings/02-tech_related/readme.md)
+    * [计算之魂](04-good_readings/02-tech_related/01-计算之魂.md)
   * [Growth](04-good_readings/growth.md)
-  * [Tech Related](04-good_readings/tech_related.md)
 - About
   * [Road Map](09-about/01-road_map.md)
   * [Issues And Thanks](09-about/02-issues_and_thanks.md)
