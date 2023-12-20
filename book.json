@@ -1,6 +1,7 @@
 {
     "title": "Brofu's Talk",
     "sortedBy": "-",
+    "unchanged": ["MySQL","ClickHouse", "ElasticSearch"],
     "plugins": ["plantuml-cloud", "disqus"] ,
     "pluginsConfig": {
     "plantuml-cloud": {
